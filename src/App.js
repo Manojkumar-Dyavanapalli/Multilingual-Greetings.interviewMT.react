@@ -53,7 +53,7 @@ class App extends Component {
   render() {
     const {activeButton} = this.state
     return (
-      <div className="container">
+      <div className="app-cont">
         <h1 className="heading">Multilingual Greetings</h1>
         <ul className="buttons-container">
           {languageGreetingsList.map(eachButton => (
